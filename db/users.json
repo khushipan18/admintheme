@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": [
+    {
+      "name": "typicode"
+    }
+  ],
+  "users": [
+    {
+      "UserName": "khushi",
+      "Email": "khushipan17@gmail.com",
+      "PhoneNumber": "1717171715",
+      "Password": "khushi",
+      "CnfPassword": "khushi",
+      "id": 1
+    },
+    {
+      "UserName": "priyal ",
+      "Email": "priya@gmail.com",
+      "PhoneNumber": "3423242421",
+      "Password": "khushi",
+      "CnfPassword": "khushi",
+      "id": 2
+    }
+  ]
+}
