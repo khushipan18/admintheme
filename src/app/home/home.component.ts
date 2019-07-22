@@ -36,18 +36,13 @@ users : User [] = [];
 
 onDelete(id) {
 
-  this.users.forEach((p: User) => {
-    if (p.id == this.route.snapshot.params.id) {
-      this.id === p.id;
-      
-    }
-  // updated //
+    // updated //
   if(confirm('Are you sure?')){
 
- this.us.deleteUser(p.id).subscribe((user : User) => {
+ this.us.deleteUser(id).subscribe((user : User) => {
 
 
-  const index = this.users.findIndex(user =>p.id === id);
+  const index = this.users.findIndex(user =>id === id);
   if(index >= 0){
  
       this.users.splice(index,1);
@@ -60,11 +55,11 @@ onDelete(id) {
 
 
 
-  }); 
+  } 
 
  
   
   }
-}
+
 
 

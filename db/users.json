@@ -20,14 +20,6 @@
   ],
   "users": [
     {
-      "UserName": "khushi",
-      "Email": "khushipan17@gmail.com",
-      "PhoneNumber": "1717171715",
-      "Password": "khushi",
-      "CnfPassword": "khushi",
-      "id": 1
-    },
-    {
       "UserName": "priyal ",
       "Email": "priya@gmail.com",
       "PhoneNumber": "3423242421",
